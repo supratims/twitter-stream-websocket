@@ -13,5 +13,10 @@
     "websocket"
   ],
   "author": "supratims@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "properties-reader": "0.0.16",
+    "socket.io": "^2.1.1",
+    "twitter": "^1.7.1"
+  }
 }

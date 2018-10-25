@@ -18,4 +18,11 @@ socket.on('connection', function(client){
         clearInterval(interval);
         console.log('Server has disconnected');
     });
+
+    var intervalSeconds = 10;
+    
+    // we send data to server every time we receive data from twitter
+    var interval = setInterval(function() {
+        client.send('new data');
+    }, intervalSeconds*1000);
 });
