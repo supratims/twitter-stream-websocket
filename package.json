@@ -1,0 +1,17 @@
+{
+  "name": "twitter-stream-websocket",
+  "version": "1.0.0",
+  "description": "Simple app using nodejs to stream tweets using websocket",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "socket.io",
+    "websocket"
+  ],
+  "author": "supratims@gmail.com",
+  "license": "MIT"
+}
